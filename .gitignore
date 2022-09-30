@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+/build
+/temp
+
+#/firmware-sdk
+
+/.vscode
+.DS_Store
