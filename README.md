@@ -3,7 +3,7 @@ Firmware for epileptic seizure detection using ML
 
 ## Introduction
 
-This project was created during the [BioMedTech Baja Hackathon 2022](https://biomed-tech-hackathon.devpost.com/) releated to Medical Devices. 
+This project was created during the [BioMedTech Baja Hackathon 2022](https://biomed-tech-hackathon.devpost.com/) related to Medical Devices. 
 
 Our Team (MedCreators) proposed a device capable of detecting epileptic seizures, sending an alert and calling to emergency contacts.
 One of the main highlights of this project is the use of on-device machine learning to do the inference on the device without the need of sending raw data to external devices to process the IMU data.
@@ -23,7 +23,7 @@ Info about the hackaton:
 
 We collected data using a board with an ESP32 microcontroller. This is supported by the Edge Impulse Platform and a [firmware](https://github.com/eavelardev/qbtn-edge-impulse) was adapted for that task.
 
-Two data classes were defined, a `normal` human behavior and when the `seizure` occurs. 10 minutes were colected for each class, simulating seizures to poof the concept. Extra samples were collected for the testing set, having a 90/10 distribution.
+Two data classes were defined, a `normal` human behavior and when the `seizure` occurs. 10 minutes were collected for each class, simulating seizures to poof the concept. Extra samples were collected for the testing set, having a 90/10 distribution.
 
 ## Build
 
