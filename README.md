@@ -23,7 +23,13 @@ Info about the hackaton:
 
 We collected data using a board with an ESP32 microcontroller. This is supported by the Edge Impulse Platform and a [firmware](https://github.com/eavelardev/qbtn-edge-impulse) was adapted for that task.
 
-Two data classes were defined, a `normal` human behavior and when the `seizure` occurs. 10 minutes were collected for each class, simulating seizures to poof the concept. Extra samples were collected for the testing set, having a 90/10 distribution.
+Two data classes were defined, a `normal` human behavior (idle, walking, running, dancing ..) and when the `seizure` occurs. 10 minutes were collected for each class, simulating seizures to test the concept. Extra samples were collected for the test set, having a 90/10 distribution.
+
+## Model Testing
+
+We can see how the model can differentiate between the two classes using the test data
+
+![model testing](./images/model_testing_480p.png)
 
 ## Build
 

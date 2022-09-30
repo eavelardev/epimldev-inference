@@ -4,8 +4,6 @@
 #include "esp_timer.h"
 #include "i2c_conf.h"
 #include "lis3dh.h"
-// #include "addr_from_stdin.h"
-
 
 #define CONVERT_G_TO_MS2        9.80665f
 #define INFERENCE_SAMPLING_TIME 200 // > 25ms (min inference time) 
