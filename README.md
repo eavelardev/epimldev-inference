@@ -39,7 +39,7 @@ idf.py build
 
 ## Device behavior
 
-* The inference process uses 2 minutes of IMU data. The frequency of the inference can be defined depending on the user's needs. We played with values between 50 to 200 ms.
+* The inference process uses 2 seconds of IMU data. The frequency of the inference can be defined depending on the user's needs. We played with values between 50 to 200 ms.
 
 * A method to activate the seizure flag was created considering a continuous number of inferences with a seizure as an output, to avoid false positive peaks.
 
